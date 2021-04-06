@@ -12,7 +12,7 @@ import '../posts.dart';
 part 'post_event.dart';
 part 'post_state.dart';
 
-const _postLimit = 20;
+const _postLimit = 5;
 
 class PostBloc extends Bloc<PostEvent, PostState> {
   PostBloc({@required this.httpClient}) : super(const PostState());
